@@ -8,7 +8,7 @@ int main ()
 	{
 		
 		printf("Ana Gahez ya Basha > ");
-		scanf("%s\\0",arr);
+		gets(arr);
 		if ( strcmp(arr,"exit") )
 		{
 			printf("you said: %s\n",arr);
